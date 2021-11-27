@@ -1,0 +1,7 @@
+name: str = input("как тебя зовут?")
+height = int(input("рост?"))
+weight = int(input("вес?"))
+if height / weight >= 2.5:
+    print(name, "ты худой")
+else:
+    print(name, "ты толстый")
